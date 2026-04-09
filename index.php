@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudioHomeArt - Строительство и дизайн под ключ</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108460822', 'ym');
+
+    ym(108460822, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/108460822" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <img src="images/5474501075559119392.jpg" alt="Логотип StudioHomeArt" class="logo__img">
+                <span class="logo__text">StudioHomeArt</span>
+            </a>
+            <nav class="nav">
+                <button class="nav__toggle" aria-label="Открыть меню">
+                    <span></span>
+                </button>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+                    <li class="nav__item"><a href="portfolio.php" class="nav__link">Портфолио</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#contact-form" class="btn btn--primary header__btn">Заказать звонок</a>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Герой-секция -->
+        <section class="hero">
+            <div class="container hero__container">
+                <h1 class="hero__title">Строительство и дизайн <span class="accent">под ключ</span></h1>
+                <p class="hero__subtitle">Превращаем ваши идеи в безупречную реальность. От проектирования до сдачи объекта.</p>
+                <div class="hero__actions">
+                    <a href="#contact-form" class="btn btn--large btn--primary">Рассчитать проект</a>
+                    <a href="portfolio.html" class="btn btn--large btn--secondary">Смотреть работы</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="features__grid">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">🏗️</div>
+                        <h3 class="feature-card__title">Опыт более 10 лет</h3>
+                        <p class="feature-card__text">Реализовали свыше 200 проектов разной сложности.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">📐</div>
+                        <h3 class="feature-card__title">Полный цикл работ</h3>
+                        <p class="feature-card__text">От архитектурного проекта до финишной отделки и мебели.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">⚖️</div>
+                        <h3 class="feature-card__title">Фиксированная смета</h3>
+                        <p class="feature-card__text">Стоимость утверждается в договоре и не меняется в процессе.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">🛡️</div>
+                        <h3 class="feature-card__title">Гарантия 5 лет</h3>
+                        <p class="feature-card__text">Несем ответственность за качество выполненных работ.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги (якорь #services) -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <h3 class="service-card__title">Ремонт квартир</h3>
+                        <p class="service-card__text">Капитальный и косметический ремонт с авторским надзором.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3 class="service-card__title">Загородные дома</h3>
+                        <p class="service-card__text">Строительство и отделка коттеджей из различных материалов.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3 class="service-card__title">Коммерческие объекты</h3>
+                        <p class="service-card__text">Офисы, магазины, рестораны — под ключ.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3 class="service-card__title">Дизайн интерьера</h3>
+                        <p class="service-card__text">Разработка уникальных проектов с 3D-визуализацией.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Портфолио (превью) -->
+        <section class="portfolio-preview">
+            <div class="container">
+                <div class="portfolio-preview__header">
+                    <h2 class="section-title">Последние проекты</h2>
+                    <a href="portfolio.html" class="link-arrow">Все работы →</a>
+                </div>
+                <div class="portfolio-preview__grid">
+                    <a href="portfolio-item.html" class="project-card">
+                        <img src="images/jpg_2000_b08679cd-5887-4f8c-983c-41ced9902209.jpg" alt="Лофт апартаменты" class="project-card__img">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title">Лофт апартаменты</h3>
+                            <p class="project-card__type">Квартира, 85 м²</p>
+                        </div>
+                    </a>
+                    <a href="portfolio-item.html" class="project-card">
+                        <img src="images/5ec08089a973c0f8f632d8f5e13ed9e1.jpg" alt="Загородный дом" class="project-card__img">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title">Загородный дом</h3>
+                            <p class="project-card__type">Коттедж, 150 м²</p>
+                        </div>
+                    </a>
+                    <a href="portfolio-item.html" class="project-card">
+                        <img src="images/1_90.jpg" alt="Кафе Minimal" class="project-card__img">
+                        <div class="project-card__overlay">
+                            <h3 class="project-card__title">Кафе Minimal</h3>
+                            <p class="project-card__type">Коммерция, 120 м²</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма обратной связи (якорь #contact-form) -->
+        <section id="contact-form" class="contact-form-section">
+            <div class="container">
+                <h2 class="section-title">Рассчитайте ваш проект</h2>
+                <p class="contact-form__subtitle">Оставьте заявку, и наш инженер свяжется с вами для бесплатной консультации.</p>
+                <form class="contact-form" id="mainContactForm">
+                    <div class="form-group">
+                        <label for="name" class="visually-hidden">Имя</label>
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="visually-hidden">Телефон</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (___) __-__-__" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service" class="visually-hidden">Услуга</label>
+                        <select id="service" name="service">
+                            <option value="" selected disabled>Выберите услугу</option>
+                            <option value="flat">Ремонт квартиры</option>
+                            <option value="house">Загородный дом</option>
+                            <option value="commercial">Коммерческий объект</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--block">Отправить заявку</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта (якорь #contacts) -->
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <a href="index.html" class="logo footer__logo">
+                        <img src="images/logo.jpg" alt="Логотип StudioHomeArt" class="logo__img">
+                        <span class="logo__text">StudioHomeArt</span>
+                    </a>
+                    <p class="footer__text">Строительство, ремонт и дизайн интерьеров в Иркутске и области.</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <address class="footer__contacts">
+                        <p>г. Иркутск, ул. Строителей, 15</p>
+                        <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+                        <p><a href="mailto:info@studiohomeart.ru">info@studiohomeart.ru</a></p>
+                    </address>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Мы в соцсетях</h3>
+                    <div class="social">
+                        <a href="#" class="social__link">Instagram</a>
+                        <a href="#" class="social__link">VK</a>
+                        <a href="#" class="social__link">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; StudioHomeArt, 2026. Все права защищены.</p>
+                <a href="login.php" class="footer__admin-link">Панель администратора</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
